@@ -1,0 +1,35 @@
+{
+  "name": "drivingscout",
+  "version": "3.0.0",
+  "description": "Package for finding driving test cancellations via DrivingScout",
+  "keywords": [
+    "paypal",
+    "ipn",
+    "payment"
+  ],
+  "contributors": [
+    {
+      "name": "DrivingScout",
+      "email": "hello@drivingscout.uk",
+      "web": "https://drivingscout.uk"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/drivingscout/node-sdk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:drivingscout/node-sdk.git"
+  },
+  "dependencies": {},
+  "main": "index",
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "engines": [
+    "node"
+  ],
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
